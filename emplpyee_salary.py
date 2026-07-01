@@ -1,0 +1,18 @@
+basic_salary=float(input("enter Basic salary:"))
+Hra=float(input("enter House rent allowance:"))
+Da=float(input("enter Dearness_allowence:"))
+bonus=float(input("enter Bonus:"))
+pf=float(input(" enter PF:"))
+tax=float(input("enter Tax:"))
+gross_salary=basic_salary+Hra+Da+bonus
+net_salary=gross_salary-pf-tax
+print("\n------ Employee Salary Slip ------")
+print("Basic Salary : ₹", basic_salary)
+print("HRA          : ₹", Hra)
+print("DA           : ₹", Da)
+print("Bonus        : ₹", bonus)
+print("PF Deduction : ₹", pf)
+print("Tax          : ₹", tax)
+print("-----------------------------------")
+print("Gross Salary : ₹", gross_salary)
+print("Net Salary   : ₹", net_salary)
